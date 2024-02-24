@@ -5,5 +5,4 @@ document.querySelectorAll(".hidden").forEach((e) => {
             e.classList.toggle("hidden");
         })
     })
-    
 });
