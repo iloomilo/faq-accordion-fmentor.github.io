@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Work Sans';
+    src: url('WorkSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity: 1;}
 }
-
 
 :root {
     --white: hsl(0, 0%, 100%);
@@ -107,3 +112,7 @@ li.hidden > .minus {
     display: none;
 }
 
+.attribution {
+    text-align: center;
+    margin-top: 1rem;
+}
